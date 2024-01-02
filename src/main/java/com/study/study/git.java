@@ -29,8 +29,26 @@ public class git {
 
        clone - 깃허브 Repository에 있는 파일을 내 로컬 컴퓨터로 복사해오는 작업이다.
        fetch - 원격 저장소에 있는 프로젝트를 로컬 저장소에 가져오는 것
-       폴더에서 우클릭 깃배스> 깃허프 페이지에서 깡통 만들기> 메모장에서 제외목록 찾기
-        init > git status >add >commit> push
+       폴더에서 우클릭 bath
+       깃허프 페이지에서 깡통 만들기 > 프로필에서
+       메모장에서 제외목록 찾기
+       init > 초기 설정 ->.git 생김
+         git status > 파일 상태 확인
+         add > 파일 추가
+         commit > 깃 허브 가기전에 로컬 임시 저장
+         origin / push -u 홈페이지에서 주소 가져오기
+         push > 커밋 한 파일을 원격 저장소에 올리는 명령
+
+         clone >  git clone
+         https://github.com/seohyeonwook/study-a.git study_b(새로운 파일명)
+         으로 만들어야 새로운 파일이 생기고 복사가 됨
+
+
+         fetch
+         pull
+
+
+
 
 
     
