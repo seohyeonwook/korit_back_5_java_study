@@ -29,7 +29,7 @@ public class git {
 
        clone - 깃허브 Repository에 있는 파일을 내 로컬 컴퓨터로 복사해오는 작업이다.
        fetch - 원격 저장소에 있는 프로젝트를 로컬 저장소에 가져오는 것
-       폴더에서 우클릭 깃배스> 깃허프 페이지에서 깡통 만들기>
+       폴더에서 우클릭 깃배스> 깃허프 페이지에서 깡통 만들기> 메모장에서 제외목록 찾기
         init > git status >add >commit> push
 
 
