@@ -35,6 +35,10 @@ public class Operation03 {
         System.out.println( age <40 && age > 20 );
         System.out.println( age <40 && age > 20 && age != 30 );
 
+        System.out.println("테스트 코드 작성");
+
+
+
 
 
 
