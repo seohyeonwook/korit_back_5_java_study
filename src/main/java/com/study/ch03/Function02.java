@@ -27,7 +27,6 @@ public class Function02 { //함수 = 호출을 하면
         fx02(33,"서현욱");
         fx02(33,"서현욱");//매개변수 순서대로 넣어야함
         int num = fx03();//선언한다고 표현
-        System.out.println(fx03());
         String result = fx04("서현욱",31);// String 과 int 면 int 의 형이 String으로 바뀌니까 String만
         System.out.println(result);
 

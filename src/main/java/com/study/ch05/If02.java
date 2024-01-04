@@ -8,9 +8,11 @@ public class If02 {
         int x = 0;
         int y = 0;
 
+
         System.out.println("x와 y를 입력해주세요(띄어쓰기로 구분): ");
         x = scanner.nextInt();
         y = scanner.nextInt();
+
 
 
 

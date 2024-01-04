@@ -3,7 +3,6 @@ package com.study.ch01;
 public class PrintStudy {//첫글자가 대문자면 파스칼 표기법 첫글자가 소문자면 카멜 표기법
     public static void main(String[] args) {
         System.out.println("2 + 4");//:"붙이면 문장으로 인식
-        System.out.println("\uAC10"); //유니코드
         System.out.println('서' + '현' + '욱');//+는 기본적으로 숫자를 연산할때 쓰는거라 숫자로 인식
         System.out.println("서" + "현" + "욱");//"는 문자열이라 +가 문자열을 이어주는 역할을 한다
         System.out.println("" + '서' + '현' + '욱');//문자열이랑 문자랑 더하면 문자열이 더 높아서 문자열로 변환되어 출력됨
@@ -23,6 +22,9 @@ public class PrintStudy {//첫글자가 대문자면 파스칼 표기법 첫글�
          */
         //  ㄴ 2진수 ~ 10진수 까지 이해가 필요
         // 코딩은 머리속으로 추상을 잘해야한다 그림을 잘 그리자
+        // 클래스는 정보의 묶음이다 정보를 담는 용도로 사용된다
+        // .> 정보를 묶기위해서 클래스 사용/ 하나의 목표를 가진 동작들의 묶음 도 클래스
+
 
 
     }

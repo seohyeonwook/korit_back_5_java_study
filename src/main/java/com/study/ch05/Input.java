@@ -9,8 +9,10 @@ public class Input {
 
         System.out.print("a: ");
         int a =scanner.nextInt();//기본적으로 문자열로 가지고 온다 그래서 숫자는 nextint 쓴다
+
         System.out.println("b: ");//ln은 기본적으로 줄바꿈
         int b =scanner.nextInt();
+
         System.out.print("c: ");
         int c =scanner.nextInt();
 
