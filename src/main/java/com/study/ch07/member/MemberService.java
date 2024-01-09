@@ -4,10 +4,8 @@ package com.study.ch07.member;
 import java.util.Scanner;
 
 public class MemberService {
-
     String inputValue(String label) {
         Scanner scanner = new Scanner(System.in);
-        MemberService memberService = new MemberService();
         String value = null;
         while(true) {
             System.out.print(label + "(입력 취소: exit) >>>");//code에 if로 gogo
@@ -20,6 +18,8 @@ public class MemberService {
 
     }
 
+
+
     boolean addMember() {// true 아니면 false리턴받으려고
         //Scanner scanner = new Scanner(System.in);
         String code = null;
@@ -30,7 +30,7 @@ public class MemberService {
         System.out.println("<<<< 회원 등록 >>>>");
         code = inputValue("회원코드");
         if("exit".equalsIgnoreCase(code)){
-            return false;
+            return false;// 이거 리턴은 어디로가??
         }
         name = inputValue("이름");
         if("exit".equalsIgnoreCase(name)){
@@ -47,8 +47,8 @@ public class MemberService {
 
         Member member = new Member(code, name, Integer.parseInt(age), address);//age문자열로 받았는데 int로 바꾸장
 
-        MemberRepository memberRepository = new MemberRepository();
-        return memberRepository.insert(member) > 0; //true or false
+        MemberRepository memberRepository = new MemberRepository();//
+        return memberRepository.insert(member) > 0; //true or false///
 
 
 //        while(true) { // 입력한게 공백인지 확인하기 위해서

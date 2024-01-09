@@ -7,7 +7,7 @@ public class User001 {
     String name;
     String email;
 
-    User001(String username, String password) {
+    User001(String username, String password) {//이게 생성자라며
         this.username = username;
         this.password = password;
     }
@@ -17,7 +17,7 @@ public class User001 {
         this.name =name;
         this.email =email;
     }
-    void showInfo(){
+    void showInfo(){//toString이랑 같은거??
         System.out.println("username :"+ username);
         System.out.println("password :"+ password);
         System.out.println("name :"+ name);

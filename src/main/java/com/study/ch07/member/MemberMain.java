@@ -6,7 +6,7 @@ public class MemberMain {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        MemberService memberService = new MemberService();
+
         String selectedMenu = null;//널을 주는이유??
         //String selecteMunu = new String("aaa")와 위에 똑같다
 
@@ -17,6 +17,8 @@ public class MemberMain {
 
             System.out.print("메뉴 선택 >>> ");
             selectedMenu = scanner.nextLine();//???
+
+            MemberService memberService = new MemberService();
 
             if("1".equals(selectedMenu)) {//1과selectedMenu 같으면 참
                boolean responseData = memberService.addMember();//!!!!!!!!!!!!!!!!!!!!!??
