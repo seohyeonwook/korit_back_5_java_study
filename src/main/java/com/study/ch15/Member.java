@@ -9,4 +9,7 @@ import lombok.Data;
 public class Member {
     private String name;
     private String phone;
+
+    //to붙으면 이거로 바꿔라 라는 뜻
+
 }
